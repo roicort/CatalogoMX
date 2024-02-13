@@ -46,13 +46,9 @@ INSTALLED_APPS = [
     'rest_framework',
     'django_filters',
 
-    # Helper Apps
-
-    'treenode',
-
     # Local Apps
 
-    'SCIAN',
+    'django_scian'
 
 ]
 

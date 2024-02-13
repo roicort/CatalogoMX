@@ -4,11 +4,11 @@ import json
 import os
 from tqdm import tqdm
 
-from SCIAN.models import SCIAN
+from django_scian.models import SCIAN
 
 # Leer excel con pandas
 
-path = './'
+path = './scripts/'
 files = os.listdir(path)
 files_xlsx = [f for f in files if f[-4:] == 'xlsx']
 
